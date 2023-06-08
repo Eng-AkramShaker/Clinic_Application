@@ -309,10 +309,10 @@ class BoxBottom_1 extends StatelessWidget {
           borderRadius: BorderRadius.circular(15.0)),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
+        children: const [
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
+            children: [
               Text(
                 '6',
                 style: TextStyle(
@@ -341,7 +341,7 @@ class BoxBottom_1 extends StatelessWidget {
               indent: 15.0),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
+            children: [
               Text(
                 '46',
                 style: TextStyle(
@@ -370,7 +370,7 @@ class BoxBottom_1 extends StatelessWidget {
               indent: 15.0),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
+            children: [
               Text(
                 '25',
                 style: TextStyle(

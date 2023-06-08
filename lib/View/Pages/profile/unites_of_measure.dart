@@ -27,7 +27,7 @@ class UnitsOfMeasure extends StatelessWidget {
               Container(
                 height: 120,
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  // mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     IconButton(
                         onPressed: () {
@@ -38,14 +38,14 @@ class UnitsOfMeasure extends StatelessWidget {
                           size: 26,
                           color: Colors.white,
                         )),
+                    const SizedBox(
+                      width: 80,
+                    ),
                     const Text(
                       "Units Of Measure",
                       textAlign: TextAlign.center,
                       style: Styles.textStyle20Setting,
                     ),
-                    const SizedBox(
-                        //  width: 80,
-                        ),
                   ],
                 ),
               ),

@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, avoid_unnecessary_containers, sized_box_for_whitespace
+// ignore_for_file: file_names, avoid_unnecessary_containers, sized_box_for_whitespace, prefer_const_constructors
 
 import 'package:carehealth/constatnt/color_app.dart';
 import 'package:carehealth/constatnt/font_app_styles.dart';
