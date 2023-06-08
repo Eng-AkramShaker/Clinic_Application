@@ -6,7 +6,7 @@ import 'package:carehealth/view/Pages/home_page/Book_Now.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/color_app.dart';
-import '../../../controller/home_page/homeController.dart';
+import '../../../controllers/home_page/homeController.dart';
 import '../../widget/homePage/bottomWidget.dart';
 import '../../widget/homePage/reviewsListWidget.dart';
 import '../accounts/appointment.dart';

@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/color_app.dart';
-import '../../../controller/home_page/homeController.dart';
+import '../../../controllers/home_page/homeController.dart';
 import '../../Pages/review/reviewsPage.dart';
 
 class ReviewsListCommenets extends StatelessWidget {

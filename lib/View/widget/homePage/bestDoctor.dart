@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/color_app.dart';
-import '../../../controller/home_page/homeController.dart';
+import '../../../controllers/home_page/homeController.dart';
 import '../../Pages/review/trainerDetailPage.dart';
 
 class NewWidgetBestDoctorOne extends StatelessWidget {
