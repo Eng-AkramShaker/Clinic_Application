@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/color_app.dart';
-import '../../../controller/navigatorTabBarController.dart';
+import '../../../controllers/navigatorTabBarController.dart';
 import '../profile/profile.dart';
 import '../review/appSettingPage.dart';
 import '../review/reviewsPage.dart';

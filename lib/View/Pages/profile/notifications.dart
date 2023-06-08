@@ -9,7 +9,7 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import '../../../constatnt/color_app.dart';
-import '../../../controller/radio_controller.dart';
+import '../../../controllers/radio_controller.dart';
 
 class Notifications extends StatelessWidget {
   Notifications({
