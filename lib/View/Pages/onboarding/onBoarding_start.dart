@@ -5,7 +5,7 @@ import 'package:carehealth/constatnt/font_app_styles.dart';
 import 'package:carehealth/constatnt/image_app.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../controller/onboarding/onBoarding_controller.dart';
+import '../../../controllers/onboarding/onBoarding_controller.dart';
 import '../../../model/onBoarding/onboarding_model_data.dart';
 import '../../widget/onboarding/custom_bottun_onboarding.dart';
 import 'OnBoarding.dart';
