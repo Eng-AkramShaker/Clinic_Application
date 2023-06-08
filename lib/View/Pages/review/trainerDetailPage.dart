@@ -5,7 +5,6 @@ import 'package:carehealth/View/Pages/review/reviewsPage.dart';
 import 'package:carehealth/view/Pages/home_page/Book_Now.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:scroll_app_bar/scroll_app_bar.dart';
 import '../../../constatnt/color_app.dart';
 import '../../../controller/homeController.dart';
 import '../../widget/homePage/bottomWidget.dart';
@@ -20,45 +19,45 @@ class TrainerDetail extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         //===================== AppBar Widget =====================================
-        appBar: ScrollAppBar(
-          elevation: 0.0,
-          backgroundColor: ColorApp.whiteColor2,
-          centerTitle: true,
-          toolbarHeight: 249.0,
-          title: Stack(
-            children: [
-              Container(
-                  margin: EdgeInsets.only(bottom: 29, left: 8.0),
-                  height: 217,
-                  child: Image.asset(
-                    'assets/images/doctor.png',
-                    fit: BoxFit.cover,
-                  )),
-            ],
-          ),
-          leading: Stack(
-            children: [
-              Container(
-                margin: EdgeInsets.only(top: 57.0, left: 15.0),
-                child: CircleAvatar(
-                  backgroundColor: ColorApp.blackColor2.withOpacity(0.2),
-                  maxRadius: 40.0,
-                  minRadius: 40.0,
-                  child: InkWell(
-                    onTap: () {
-                      Get.back();
-                    },
-                    child: Container(
-                        margin: EdgeInsets.only(left: 7.0),
-                        child: Icon(Icons.arrow_back_ios,
-                            color: ColorApp.whiteColor2)),
-                  ),
-                ),
-              )
-            ],
-          ),
-          controller: extController,
-        ),
+        // appBar: ScrollAppBar(
+        //   elevation: 0.0,
+        //   backgroundColor: ColorApp.whiteColor2,
+        //   centerTitle: true,
+        //   toolbarHeight: 249.0,
+        //   title: Stack(
+        //     children: [
+        //       Container(
+        //           margin: EdgeInsets.only(bottom: 29, left: 8.0),
+        //           height: 217,
+        //           child: Image.asset(
+        //             'assets/images/doctor.png',
+        //             fit: BoxFit.cover,
+        //           )),
+        //     ],
+        //   ),
+        //   leading: Stack(
+        //     children: [
+        //       Container(
+        //         margin: EdgeInsets.only(top: 57.0, left: 15.0),
+        //         child: CircleAvatar(
+        //           backgroundColor: ColorApp.blackColor2.withOpacity(0.2),
+        //           maxRadius: 40.0,
+        //           minRadius: 40.0,
+        //           child: InkWell(
+        //             onTap: () {
+        //               Get.back();
+        //             },
+        //             child: Container(
+        //                 margin: EdgeInsets.only(left: 7.0),
+        //                 child: Icon(Icons.arrow_back_ios,
+        //                     color: ColorApp.whiteColor2)),
+        //           ),
+        //         ),
+        //       )
+        //     ],
+        //   ),
+        //   controller: extController,
+        // ),
         body: Container(
           color: ColorApp.whiteColor2,
           child: ListView(
