@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/color_app.dart';
-import '../../../controller/homeController.dart';
+import '../../../controller/home_page/homeController.dart';
 import '../../widget/homePage/bottomWidget.dart';
 import '../../widget/homePage/divider.dart';
 import '../accounts/forgot_password.dart';
