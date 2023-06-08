@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/image_app.dart';
 import '../../../constatnt/font_app_styles.dart';
-import '../../../controller/onBoarding_controller.dart';
+import '../../../controller/onboarding/onBoarding_controller.dart';
 import '../../widget/onboarding/next_bottun.dart';
 import '../../widget/onboarding/skip_buttom.dart';
 import '../../widget/onboarding/slider_widget.dart';

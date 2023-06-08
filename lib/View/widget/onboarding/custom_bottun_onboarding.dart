@@ -4,7 +4,7 @@ import 'package:carehealth/constatnt/font_app_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/color_app.dart';
-import '../../../controller/onBoarding_controller.dart';
+import '../../../controller/onboarding/onBoarding_controller.dart';
 
 class CustomBottumOnBoarding extends GetView<OnBoardingControllerImp> {
   CustomBottumOnBoarding({

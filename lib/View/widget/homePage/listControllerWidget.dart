@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/color_app.dart';
-import '../../../controller/homeController.dart';
+import '../../../controller/home_page/homeController.dart';
 import 'bestDoctor.dart';
 import 'cardDoctor.dart';
 import 'list_View.dart';

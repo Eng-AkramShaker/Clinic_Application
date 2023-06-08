@@ -4,7 +4,7 @@ import 'package:carehealth/constatnt/color_app.dart';
 import 'package:carehealth/constatnt/font_app_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../controller/onBoarding_controller.dart';
+import '../../../controller/onboarding/onBoarding_controller.dart';
 import '../../widget/onboarding/next_bottun.dart';
 import '../../widget/onboarding/skip_buttom.dart';
 import '../../widget/onboarding/slider_widget.dart';
@@ -58,19 +58,19 @@ class OnboardingTwo extends GetView<OnBoardingControllerImp> {
                         padding: EdgeInsets.all(15.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            const Text("Perfect Body",
+                          children: const [
+                            Text("Perfect Body",
                                 style: Styles.textStyle40blackBebas),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
-                              children: const [
+                              children: [
                                 Text("Doing",
                                     style: Styles.textStyle40blackBebas),
                                 Text(" Crossfit",
                                     style: Styles.textStyle40greenBebas),
                               ],
                             ),
-                            const Text(
+                            Text(
                               "Exercises",
                               style: Styles.textStyle40blackBebas,
                             ),

@@ -5,9 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:get/get.dart';
-
 import '../../../constatnt/color_app.dart';
-import '../../../controller/homeController.dart';
+import '../../../controller/home_page/homeController.dart';
 import '../../Pages/home_page/Book_Now.dart';
 import '../../Pages/home_page/Speed_Dial.dart';
 import '../../Pages/review/trainerDetailPage.dart';

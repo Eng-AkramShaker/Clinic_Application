@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../controller/onBoarding_controller.dart';
+import '../../../controller/onboarding/onBoarding_controller.dart';
 
 class NextButtomWidget extends GetView<OnBoardingControllerImp> {
   NextButtomWidget({

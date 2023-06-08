@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/color_app.dart';
-import '../../../controller/homeController.dart';
+import '../../../controller/home_page/homeController.dart';
 import '../../Pages/review/reviewsPage.dart';
 
 class ReviewsListCommenets extends StatelessWidget {
@@ -39,8 +39,8 @@ class ReviewsListCommenets extends StatelessWidget {
             itemBuilder: (context, index) {
               return InkWell(
                 onTap: () {
-              Get.to(Reviews());
-            },
+                  Get.to(Reviews());
+                },
                 child: Container(
                   margin: EdgeInsets.only(left: leftMar, bottom: bottomMar),
                   width: MediaQuery.of(context).size.width - 50,
@@ -52,8 +52,8 @@ class ReviewsListCommenets extends StatelessWidget {
                   child: Column(
                     children: [
                       Container(
-                        margin:
-                            EdgeInsets.symmetric(vertical: 14.0, horizontal: 10),
+                        margin: EdgeInsets.symmetric(
+                            vertical: 14.0, horizontal: 10),
                         // padding: EdgeInsets.only(right: 60),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,

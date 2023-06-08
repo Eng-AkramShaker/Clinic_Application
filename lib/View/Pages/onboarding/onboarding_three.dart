@@ -6,7 +6,7 @@ import 'package:carehealth/constatnt/color_app.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../constatnt/font_app_styles.dart';
-import '../../../controller/onBoarding_controller.dart';
+import '../../../controller/onboarding/onBoarding_controller.dart';
 import '../../../routes/routes.dart';
 import '../../widget/onboarding/next_bottun.dart';
 import '../../widget/onboarding/skip_buttom.dart';
