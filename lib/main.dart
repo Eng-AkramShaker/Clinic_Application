@@ -51,7 +51,6 @@ class MyApp extends StatelessWidget {
       },
       debugShowCheckedModeBanner: false,
       title: 'Clinic_app',
-      color: ColorApp.backgroundYallowColor,
       //
 
       getPages: AppPage.routes,
