@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, file_names, annotate_overrides, sized_box_for_whitespace, avoid_unnecessary_containers, camel_case_types, unused_import
+// ignore_for_file: prefer_const_constructors, file_names, annotate_overrides, sized_box_for_whitespace, avoid_unnecessary_containers, camel_case_types, unused_import, prefer_const_literals_to_create_immutables
 
 import 'package:carehealth/View/Pages/accounts/write__review.dart';
 import 'package:carehealth/View/Pages/review/reviewsPage.dart';
@@ -309,7 +309,7 @@ class BoxBottom_1 extends StatelessWidget {
           borderRadius: BorderRadius.circular(15.0)),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: const [
+        children: [
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [

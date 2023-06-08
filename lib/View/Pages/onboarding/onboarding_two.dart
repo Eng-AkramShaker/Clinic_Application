@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_unnecessary_containers, sized_box_for_whitespace, prefer_const_constructors
+// ignore_for_file: avoid_unnecessary_containers, sized_box_for_whitespace, prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:carehealth/constatnt/color_app.dart';
 import 'package:carehealth/constatnt/font_app_styles.dart';
@@ -58,7 +58,7 @@ class OnboardingTwo extends GetView<OnBoardingControllerImp> {
                         padding: EdgeInsets.all(15.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
-                          children: const [
+                          children: [
                             Text("Perfect Body",
                                 style: Styles.textStyle40blackBebas),
                             Row(
