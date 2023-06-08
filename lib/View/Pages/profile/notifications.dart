@@ -34,22 +34,26 @@ class Notifications extends StatelessWidget {
                       Container(
                         height: 120,
                         child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          //  mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             IconButton(
                                 onPressed: () {
                                   Get.back();
+                                  Get.to(SettingScreen());
                                 },
                                 icon: Icon(Icons.arrow_back_ios_outlined,
                                     size: 26, color: Colors.white)),
-                            Text(
-                              "Notifications",
-                              textAlign: TextAlign.center,
-                              style: Styles.textStyle20Setting,
-                            ),
                             SizedBox(
-                                // width: 80,
-                                ),
+                              width: 80,
+                            ),
+                            Align(
+                              // alignment: Alignment.center,
+                              child: Text(
+                                "Notifications",
+                                textAlign: TextAlign.center,
+                                style: Styles.textStyle20Setting,
+                              ),
+                            )
                           ],
                         ),
                       ),

@@ -286,11 +286,11 @@ class Profile extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 21),
-              // const Divider(
-              //   color: Color(0xff505050),
-              //   thickness: 1,
-              //   height: 1,
-              // ),
+              const Divider(
+                color: Color(0xff505050),
+                thickness: 1,
+                height: 1,
+              ),
               // const SizedBox(height: 49),
               // Container(
               //   decoration: BoxDecoration(
@@ -346,25 +346,20 @@ class Profile extends StatelessWidget {
               //     ),
               //   ),
               // ),
-              //   const SizedBox(height: 17),
+              const SizedBox(height: 17),
               const Divider(
                 color: Color(0xff505050),
                 thickness: 1,
                 height: 1,
               ),
               const SizedBox(height: 20),
-              InkWell(
-                onTap: () {
-                  //   Get.to(AlertDailogTest());
-                },
-                child: Align(
-                  alignment: Alignment.topLeft,
-                  child: OnBoardingTextWidget(
-                      text: "Sign Out",
-                      fontSize: 17,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.red),
-                ),
+              Align(
+                alignment: Alignment.topLeft,
+                child: OnBoardingTextWidget(
+                    text: "Sign Out",
+                    fontSize: 17,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.red),
               ),
               const SizedBox(height: 20),
               const Divider(
